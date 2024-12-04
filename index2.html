@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+</head>
+
+<body>
+    <table cellspacing="30"> <!--cellspacing: to add space between columns of table-->
+        <tr>
+            <td><img src="Images/image1.jpg" 
+                alt="Personal Photo" width="400" height="250">
+            </td>
+            <td><h1>HIMANSHU VERMA</h1>
+                <p><em>Student at <strong><a href="https://www.manit.ac.in/">MANIT</a></strong></em></p>
+            
+                <!-- <em> also does the same ie italicize the text but it also tell the browser
+                    to put emphasize on the text so always use <em>
+                        <b> to make the words bold
+                        <strong> has meaning that this text has  importance and hence needs to be 
+                            displayed in bold-->
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia omnis maiores aliquam quae, doloremque cum
+                    blanditiis dolor deserunt iure rerum asperiores similique, sed expedita exercitationem sapiente, at amet culpa
+                    esse.
+                </p>
+            </td>
+        </tr>
+    </table>
+    
+    
+    <hr>
+    <h3>Educational Details</h3>
+    <ul>
+        <li>Graduation</li>
+        <li>Senior Secondary Education</li>
+        <li>Secindary Education</li>
+    </ul>
+    <hr>
+    <h3>Work Experience </h3>
+    <table> <!--Can use <table border="2">-->
+        <thead>
+            <th>Time Line</th>
+            <th>Organizations Name</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2023</td>
+                <td>Cognizant</td>
+            </tr>
+            <tr>
+                <td>2021-2023</td>
+                <td>Wallmart</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+       
+    </table>
+    <hr>
+    <h3>Skills</h3>
+    <!-- <table>
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td>Management</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>Public Speaking </td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Negotiation</td>
+                <td>⭐⭐⭐⭐</td>
+                <td>Leadership</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+        </tbody>
+    </table> -->
+    <!-- Now doing the same using nested table-->
+     <table cellspacing="10">
+        <tr>
+            <td>
+            <table cellspacing="10">
+                <tr>
+                    <td>Management</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    
+                </tr>
+                <tr>
+                    <td>Negotiation</td>
+                    <td>⭐⭐⭐⭐</td>
+                   
+                </tr>
+            </table>
+            </td>
+            <td>
+            <table cellspacing="10">
+                <tr>
+                    <td>Management</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    
+                </tr>
+                <tr>
+                    <td>Negotiation</td>
+                    <td>⭐⭐⭐⭐</td>
+                    
+                </tr>
+            </table>
+            </td>
+        </tr>
+     </table>
+    <hr>
+    <a href="hobbies.html">My Hobbies</a>
+    <hr>
+    <a href="contactme.html">Contact Me</a>
+</body>
+
+</html>
